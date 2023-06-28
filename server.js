@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const ShortUrl = require("./models/shortUrl");
 const app = express();
 
-mongoose.connect("mongodb://0.0.0.0:27017/random", {
+mongoose.connect("mongodb+srv://divyagrawal29:cxKDcZ6ScuDj2nRc@cluster0.1nqaghb.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
